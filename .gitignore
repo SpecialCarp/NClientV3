@@ -1,0 +1,35 @@
+# Node.js模块目录
+node_modules/
+
+# 编译输出文件夹
+/dist
+/build
+/unpackage
+
+# HBuilderX 编译文件（uniapp 项目）
+*.sublime-workspace
+*.sublime-project
+*.log
+*.bak
+
+# macOS系统文件
+.DS_Store
+
+# Windows系统文件
+Thumbs.db
+
+# IDE配置文件夹（VSCode）
+.vscode/
+
+# IntelliJ IDEA 配置文件夹
+.idea/
+
+# npm缓存文件
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# 如果你使用了某些生成的临时文件，添加它们
+*.swp
+*.swo
+*.bak
