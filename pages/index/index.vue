@@ -1,12 +1,12 @@
 <template>
-	<header />
+	<Header />
 	<view class="main">
 		<ul class="main" style="">
 			<navigator v-for="(item, index) in galleries" :key="index"
 				:url="`/pages/gallery/gallery?link=${item.link}`">
 				<li class="comic-item">
 					<div class="pic-wrapper">
-						<image :src="item.thumbnail" class="pic" mode="aspectFit"></image>
+						<!-- <image :src="item.thumbnail" class="pic" mode="aspectFit"></image> -->
 					</div>
 					<view class="comic-info">
 						<image class="language" :src="getIcon(item.language)" style="width: 48rpx; height: 32rpx"></image>
@@ -16,13 +16,13 @@
 			</navigator>
 		</ul>
 	</view>
-	<footer />
+	<Footer />
 </template>
 
 <script setup>
 	// 引入组件
-	import footer from './footer.vue';
-	import header from './header.vue';
+	import Footer from './footer.vue';
+	import Header from './header.vue';
 
 	// 
 	import {
@@ -39,7 +39,8 @@
 
 	onLoad(() => {
 		getPage({
-			page: 1
+			page: 1,
+			language: null
 		})
 		console.log(galleries.value);
 	})

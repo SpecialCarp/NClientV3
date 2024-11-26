@@ -1,5 +1,6 @@
 # Node.js模块目录
 node_modules/
+package-lock.json
 
 # 编译输出文件夹
 /dist
