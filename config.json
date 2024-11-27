@@ -1,0 +1,8 @@
+{
+	"baseURL": "https://nhentai.net/search/",
+	"proxy": {
+		"baseURL": "https://api.allorigins.win/get",
+		"param": "url=${url}",
+		"method": "GET"
+	}
+}
