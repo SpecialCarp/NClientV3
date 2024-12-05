@@ -15,13 +15,6 @@
 			}
 		},
 		{
-			"path" : "pages/tag/tag",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
 			"path" : "pages/setting/setting",
 			"style" : 
 			{
@@ -29,14 +22,14 @@
 			}
 		},
 		{
-			"path" : "pages/tag_filter/tag_filter",
+			"path" : "pages/filter/filter",
 			"style" : 
 			{
 				"navigationBarTitleText" : ""
 			}
 		},
 		{
-			"path" : "pages/read_history/read_history",
+			"path" : "pages/history/history",
 			"style" : 
 			{
 				"navigationBarTitleText" : ""
@@ -58,13 +51,6 @@
 		},
 		{
 			"path" : "pages/download/download",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/setting/setting",
 			"style" : 
 			{
 				"navigationBarTitleText" : ""
